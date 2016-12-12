@@ -1,0 +1,16 @@
+{
+  "name": "star-logger",
+  "version": "1.0.0",
+  "description": "simple github star to data.sparkfun logger",
+  "main": "handler.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dschep/star-logger/"
+  },
+  "author": "Daniel Schep <dschep@gmail.com> (https://schep.me)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "node-fetch": "^1.6.3"
+  }
+}
