@@ -1,3 +1,6 @@
 {
-  ""
+  "repo_name": "cc-sls",
+  "description": "A simple serverless function",
+  "version": "1.0.0",
+  "handler_name": "handler"
 }
