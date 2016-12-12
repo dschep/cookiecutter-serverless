@@ -1,0 +1,19 @@
+service: {{cookiecutter.repo_name}}
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+  stage: dev
+  region: us-east-1
+
+  environment:
+    foo: bar
+
+functions:
+  {{cookiecutter.repo_name}}:
+    handler: handler.{{cookiecutter.handler_name}}
+#    events:
+#      - schedule: rate(1 day)
+#      - http:
+#          path: '{{cookiecutter.handler_name}}'
+#          method: get
